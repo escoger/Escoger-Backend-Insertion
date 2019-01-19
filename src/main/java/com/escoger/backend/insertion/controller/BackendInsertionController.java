@@ -19,10 +19,10 @@ public class BackendInsertionController {
 		this.backendInsertionService = backendInsertionService;
 	}
 
-	@GetMapping	("/All")
+	/*@GetMapping	("/All")
 	public ObjectNode getAllSearchBasedOnKey() {
-		ObjectNode objectNode = searchService.getAllSearchBasedOnKey();
+		//ObjectNode objectNode = searchService.getAllSearchBasedOnKey();
 		return objectNode;
-	}
+	}*/
 
 }
